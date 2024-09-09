@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./assets/images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
+  background-color: #eab229;
+  color: black;
+  border: 2px solid white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.heading h1 {
+  font-size: 18px;
+}
+
+.lyrics-container {
+  margin-top: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.track-input-box {
+  margin: 7px;
+  width: 500px;
+  height: 30px;
+  background-color: #363636;
+  border: 1.5px solid white;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.track-input-box input {
+  width: 480px;
+  height: 30px;
+  background-color: #363636;
+  color: white;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+}
+
+.input-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.artist-input-box {
+  margin: 7px;
+  width: 400px;
+  height: 30px;
+  background-color: #363636;
+  border: 1.5px solid white;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.artist-input-box input {
+  width: 380px;
+  height: 30px;
+  margin-left: 10px;
+  background-color: #363636;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.search-btn {
+  width: 100px;
+  padding: 6px;
+  border-radius: 7px;
+  border: 1.5px solid white;
+  background-color: #0e74ad;
+  color: white;
+  font-size: 16px;
+}
+
+.search-btn:hover {
+  background-color: #15557a;
+}
+
+.output-container {
+  background-color: black;
+  width: 600px;
+  height: 300px;
+  border: 1.5px solid white;
+  border-radius: 7px;
+  overflow-y: scroll;
+  margin-block: 40px;
+}
+
+.output-container::-webkit-scrollbar {
+  display: none;
+}
+
+.output-container p {
+  margin: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.footer {
+  font-size: 14px;
+  color: white;
+}
