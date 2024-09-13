@@ -1,6 +1,6 @@
 
 
-# Lyrics Finder
+# Lyrics Finder Website
 
 ## Introduction
 
