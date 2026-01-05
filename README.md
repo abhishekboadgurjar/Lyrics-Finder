@@ -53,7 +53,7 @@ The project is organized as follows:
 To get started with this project, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/abhishekboadgurjar/lyrics-finder.git
+git clone https://github.com/abhishekgurjarin/lyrics-finder.git
 cd lyrics-finder
 npm install
 npm start
@@ -79,5 +79,5 @@ The Lyrics Finder project is an excellent way to practice integrating APIs and h
 
 ### Author
 
-**Abhishek Gurjar** is a web developer passionate about building interactive and engaging web applications. You can follow his work on [GitHub](https://github.com/abhishekboadgurjar).
+**Abhishek Gurjar** is a web developer passionate about building interactive and engaging web applications. You can follow his work on [GitHub](https://github.com/abhishekgurjarin).
 
